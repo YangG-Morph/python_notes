@@ -1,0 +1,7 @@
+""" Make new spec file for Pyinstaller """
+pyi-makespec --onefile --noconsole main.py
+
+""" Insert into middle of spec to reduce game size """
+search_terms = ['mkl','libopenblas']
+discarded = [i for i in a.binaries for j in search_terms if i[0].find(j) > -1]
+a.binaries = [i for i in a.binaries if i not in discarded]
