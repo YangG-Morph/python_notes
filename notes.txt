@@ -1,3 +1,4 @@
 """ Make new spec file for Pyinstaller """
 pyi-makespec --onefile --noconsole main.py
 
+Update project if push errors
