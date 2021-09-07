@@ -1,4 +1,11 @@
 """ Make new spec file for Pyinstaller """
 pyi-makespec --onefile --noconsole main.py
 
-Update project if push errors
+""" Lambda i in for loops """
+lambda i=i: object.id=i
+
+
+
+Github - Update project if push errors
+
+
